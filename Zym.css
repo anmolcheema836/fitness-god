@@ -1,0 +1,155 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+.backg-color{
+    background-color: #9dc00e;
+}
+.cus-text-color{
+    color: #9dc00e;
+}
+.top-sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.button-hover:hover{
+    color: #9dc00e;
+    border: #9dc00e 1px solid;
+}
+.active1{
+    color: #9dc00e;
+}
+
+
+
+.navhover{
+    color: white;
+}
+.navhover:hover{
+    color: #9dc00e;
+}
+.right-to-left{
+    animation: right-left .5s ease;
+}
+@keyframes right-left{
+    0%{
+        opacity: 0;
+        transform: translateX(100vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Assests/wepik-export-20240214083559S0mp.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.bg2{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(Assests/dumbbells-foreground-gym-environment.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg3{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(Assests/fitness.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg4{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(Assests/about\ us.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.text-height{
+    height: 100vh;
+}
+.cover{
+    background-color: rgba(0, 0, 0, 0.533);
+    border: #9dc00e 2px solid;
+}
+.download-card{
+    height: 100vh;
+}
+.icon-size{
+    font-size: 50px;
+    background: linear-gradient(to left,rgba(0,0,0),rgb(77, 77, 77),rgba(0,0,0));
+    border-radius: 50%;
+    padding: 15px 20px;
+    top: -15%;
+   transition-duration: 1s;
+   transition-property: all;
+
+}
+.card-height:hover .icon-size{
+    font-size: 60px;
+    transform: rotate(360deg);
+    text-shadow: #9dc00e 2px 2px 8px;
+    /* box-shadow: #9dc00e 2px 2px 8px; */
+    box-shadow: #9dc00e 0px 5px 15px, 5px 0 15px,0px -5px 15px, -5px 0 15px;
+}
+.card-height{
+    height: 300px;
+}
+.card-height1{
+    height: 500px;
+}
+.cheight{
+    display: none;
+    background-color: black;
+    color: white;
+}
+.cheight:hover{
+    border: 2px solid black;
+    color: black;
+}
+.card{
+    transition-duration: 1s;
+}
+.card:hover .cheight{
+    display: block;
+}
+.border-custom{
+    border-top: #9dc00e 4px solid;
+    border-bottom: #9dc00e 4px solid;
+}
+.icon-hover{
+    transition-duration: .5s;
+    
+}
+.icon-hover:hover{
+    transform: rotate(360deg);
+    scale: 1.3;
+    background-color: black;
+    color: #9dc00e;
+}
+.black{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    /* z-index: 3; */
+}
+
+
+@media(max-width:576px){
+    .download-card{
+        height: 100%;
+    }
+    .text-height{
+        justify-content: center;
+    }
+}
